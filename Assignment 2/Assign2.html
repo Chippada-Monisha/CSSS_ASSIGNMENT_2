@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="Style.css" rel="stylesheet"/>
+    <title>Assignment 1 </title>
+</head>
+<body>
+
+    <h4>Height Comparision in CSS</h4>
+
+    <div class="height">
+        
+        <p class="height1">Height: 2rem (Relative to font-size of the root element)</p>
+        <p class="height2">Height: 2em (Relative to the font-size of the element)</p>
+        <p class="height3">Height: 2vh (Relative to 1% of the height of the viewport*)</p>
+        <p class="height4">Height: 2vw (Relative to 1% of the width of the viewport*)</p>
+        <p class="height5">Height: 5px (Relative to the viewing device)</p>
+    </div>
+    
+    
+    <hr>
+
+    <div class="combinators">
+        
+        <h4>Combinators in CSS</h4>
+        <h4>Descendant Selector: matches all the elements that are Descendant of specified element</h4>
+        <div class="descendant">
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, odio?</p>
+            <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quasi.</p></span>
+            </div>
+            <section><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nihil.</p></section>
+        </div>
+
+        <h4>Child Selector: selects all elements that are the children of a specified element</h4>
+        <div class="selector">
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, odio?</p>
+            </div>
+                <span><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quasi.</p></span>
+            <div><section><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nihil.</p></section>
+            </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam a impedit deserunt.</p>
+        </div>
+
+        <h4>Adjacent Sibling Selector: is is used to select an element that is directly after another specific element. </h4>
+        <div class="adjacent">
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, amet</p>
+            </div>
+            
+       
+        <p>Lorem ipsum dolor sit amet.Lorem</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut delectus odio voluptatum tempore, saepe optio architecto magni, quod quas quidem dolores, neque dolore?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde minima, quos itaque sed harum possimus ipsa sunt aspernatur similique adipisci illum, placeat, sit nobis! Sit vitae nisi cum blanditiis molestias?</p>
+
+
+        <div class="sibling">
+        <h4>General Sibling Selector: it selects all elements that are next sibling of a specified element.</h4>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, vitae magni. Beatae!</p>
+        </div>
+            
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+       
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cumque similique, saepe incidunt earum magni eius! Nam consequatur laboriosam autem?</span>
+    </div>
+    </div>
+
+    <hr>
+
+    <br>
+    <h4>Do touch the Ball to see the Transition </h4>
+
+    <h4>Transistion Over the circle</h4>
+
+    <div class="transition">
+        
+        <div class="circle"></div>
+    </div>
+
+    <hr>
+
+    <h4>Transform Over the Box</h4>
+
+    <div class="transform">
+       
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
